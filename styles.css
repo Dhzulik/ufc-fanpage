@@ -1,0 +1,50 @@
+#bienvenida{
+    color:rgb(72, 121, 212);
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-size: 300%;
+    text-align: center;
+}
+h1{
+    font-size:400%;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+    text-justify: distribute;
+}
+p{
+    color: rgb(124, 2, 2);
+}
+article p{
+    font-family: monospace;
+    font-weight:bolder;
+}
+section h2{
+    background-color:cadetblue;
+}
+main p{
+    line-height: 1,5;
+}
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+.card{
+    color: blue;
+    background-color:cadetblue;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 25%;
+    text-align: center;
+    font-size: 100%;
+}
+@media (max-width: 768px){
+    *{background-color:gray;}
+}
